@@ -120,20 +120,20 @@ const cambiarFondo=(a)=>{
     switch (a) {
         case 0:
             
-            body.style.backgroundImage="url('../imagenes/fondoSpaceAround.png')";
+            body.style.backgroundImage="url('imagenes/fondoSpaceAround.png')";
             break;
         case 1:
             
-            body.style.backgroundImage="url('../imagenes/space-between.png')";
+            body.style.backgroundImage="url('imagenes/space-between.png')";
             break;
         case 2: 
-            body.style.backgroundImage="url('../imagenes/center.png')";
+            body.style.backgroundImage="url('imagenes/center.png')";
             break;
         case 3: 
-            body.style.backgroundImage="url('../imagenes/flex-end.png')";
+            body.style.backgroundImage="url('imagenes/flex-end.png')";
             break; 
         case 4: 
-            body.style.backgroundImage="url('../imagenes/flex-start.png')";
+            body.style.backgroundImage="url('imagenes/flex-start.png')";
             break;   
         default:
             break;
