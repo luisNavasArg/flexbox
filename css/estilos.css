@@ -1,0 +1,57 @@
+body{
+    background-image: url('../imagenes/center.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}*/
+div .elementos{    
+    display: flex;
+    margin-bottom: 10%;
+    
+}
+img{
+    visibility:hidden;
+}
+.mensaje{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.24);
+    z-index: 10;
+    color: white;
+    visibility:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+h2{
+    background-color: blue;
+    padding: 50px;
+    border-radius: 0px 100px 30px 80px;
+}
+.pistas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    background-color: gainsboro;
+    
+}
+.muestra{
+    background: black;
+    color:white;
+    display: inline-block;
+}
+ol{
+    list-style: none;
+}
