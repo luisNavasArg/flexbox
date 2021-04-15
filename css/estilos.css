@@ -17,7 +17,7 @@ div .elementos{
     
 }
 img{
-    visibility:hidden;
+    visibility:visible;
 }
 .mensaje{
     position: absolute;
