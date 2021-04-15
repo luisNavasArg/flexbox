@@ -45,7 +45,8 @@ h2{
 }
 p{
     background-color: gainsboro;
-    
+    display: inline-block;
+    padding: 5px;
 }
 .muestra{
     background: black;
